@@ -2,25 +2,44 @@
   width: 70%;
   margin: auto;
   text-align: center;
+
 }
 
 .dice {
   text-align: center;
   display: inline-block;
+}
 
+button {
+  width: 30%;
+  height: 7rem;
+  font-size: 5rem;
+  display: inline-block;
+  margin: auto;
+  border-radius: 50px;
+  border: 2px solid #4ECCA3;
+  background-color: #393E46;
+
+}
+
+button:hover {
+  background-color: #4ECCA3;
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-a {
+  text-align: center;
+  color: #4ECCA3;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  text-decoration: none;
 }
 
 body {
   background-color: #393E46;
 }
 
-h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
-}
 
 h2 {
     margin: 30px;
@@ -45,4 +64,21 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+}
+
+@media (max-width: 1020px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  img {
+    width: 60%;
+  }
+  button {
+    font-size: 1.5rem;
+  }
+
+
 }
