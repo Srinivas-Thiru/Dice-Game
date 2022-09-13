@@ -1,3 +1,7 @@
+
+
+function rollDice() {
+
 var randomNumber1 = Math.floor((Math.random()*6) + 1);
 
 var randomDiceImage1 = "images/dice" + randomNumber1 +".png";
@@ -16,4 +20,5 @@ if(randomNumber1 > randomNumber2){
   document.querySelector("h2").innerHTML = "Player 2 Won!!!";
 }else {
   document.querySelector("h2").innerHTML = "Draw...  Roll Again";
+}
 }
